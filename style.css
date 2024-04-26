@@ -1,0 +1,55 @@
+
+body{
+    background-color: #000;
+    color: #fff;
+}
+.container{
+    width: 800px;
+    margin: 5% 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#welcome{
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+.section{
+    padding: 1rem;
+    line-height: 1.8rem;
+    letter-spacing: 2px;
+    text-align: justify;
+}
+.headings{
+    font-size: 2rem;
+    color: rgb(232, 75, 13);
+}
+h2{
+    font-size: 2.5rem;
+    color: rgb(232, 75, 13);
+
+}
+
+button{
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(232, 75, 13);
+    color: #fff;
+    font-weight: 900;
+
+}
+ul li{
+    font-weight: 900;
+}
+@media (max-width:768px){
+    .container{
+        width: 380px;
+        margin: 5% 0%;
+    }
+    .container img{
+        width:360px;
+    }
+}
